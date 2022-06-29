@@ -12,6 +12,8 @@ The structure of this README is:
 
 ### Preliminaries
 
+Run `conda env create --file environment.yaml` to create the Conda environment. Run `source env.sh` to generate the appropriate environment variables, as described below.
+
 To run the code, you need to set two environment variables:
 1. Set the `DATASETS` environment variable to a directory where datasets will be stored.
  For example: `export DATASET="/my/directory/datasets"`.

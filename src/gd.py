@@ -10,6 +10,11 @@ from utilities import get_gd_optimizer, get_gd_directory, get_loss_and_acc, comp
     save_files, save_files_final, get_hessian_eigenvalues, iterate_dataset
 from data import load_dataset, take_first, DATASETS
 
+"""
+TODO
+USE THESE VERIONS FOR MILLAN'S MACHINE:
+conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
+"""
 
 def main(dataset: str, arch_id: str, loss: str, opt: str, lr: float, max_steps: int, neigs: int = 0,
          physical_batch_size: int = 1000, eig_freq: int = -1, iterate_freq: int = -1, save_freq: int = -1,
